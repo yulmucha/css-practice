@@ -1,0 +1,106 @@
+/* styles/Home.module.css */
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.example,
+.problem {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.item {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+.example1,
+.example2,
+.example3,
+.example4,
+.example5,
+.example6,
+.problem1,
+.problem2,
+.problem3,
+.problem4,
+.problem5,
+.problem6 {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.example1 {
+  display: flex;
+}
+.example2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.example3 {
+  display: flex;
+  justify-content: space-between;
+}
+.example4 {
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+.example5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.example6 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.example7 .outerContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.example7 .innerContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #d0d0d0;
+  padding: 10px;
+  width: 30%;
+}
+
+.exampleImage {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Problem 스타일은 학습자가 직접 수정할 수 있도록 비워둡니다 */
