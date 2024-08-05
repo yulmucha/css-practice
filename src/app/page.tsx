@@ -9,6 +9,9 @@ export default function Home() {
         <li>
           <a href="/flex">Flex</a>
         </li>
+        <li>
+          <a href="/grid">Grid</a>
+        </li>
       </ul>
     </div>
   );

@@ -1,0 +1,92 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
+
+.example,
+.problem {
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.example h3,
+.problem h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.item {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.codeBlock {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.hint {
+  font-style: italic;
+  color: #7f8c8d;
+  margin-top: 10px;
+}
+
+/* 예제 1: 기본 그리드 */
+.example1 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/* 예제 2: fr 단위 사용 */
+.example2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+/* 예제 3: gap 사용 */
+.example3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* 예제 4: 그리드 아이템 배치 */
+.example4 {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px;
+}
+
+.example4 .item:nth-child(1) {
+  grid-column: 1 / -1; /* 헤더 */
+}
+
+.example4 .item:nth-child(4) {
+  grid-column: 1 / -1; /* 푸터 */
+}
+
+/* 문제 1: 3열 그리드 */
+
+/* 문제 2: fr 단위로 열 너비 조정 */
+
+/* 문제 3: gap으로 간격 만들기 */
+
+/* 문제 4: 간단한 레이아웃 만들기 */
